@@ -1,8 +1,11 @@
 # Canta Storie realizzato con Arduino
 
 Il Canta Storie riproduce brani MP3 (come le storie per i bambini) al passagio di Tag RFID
+
 Le storie, in formato MP3, sono salvate su una SD Card e riprodotte dal lettore MP3 DFPlayer
+
 I Tag RFID possono essere riciclati per esempio usando i biglietti usati dei mezzi pubblici che utilizzano questa tecnoligia
+
 Arduino si occupa di gestire la lettura dei Tag RFID ed eseguire i brani MP3
 
 
