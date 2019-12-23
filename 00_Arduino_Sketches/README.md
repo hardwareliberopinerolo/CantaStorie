@@ -1,6 +1,6 @@
 # Sketches
 
-La cartella contiene gli Sketches del Canta Storie
+La cartella contiene lo Sketch Arduino del Canta Storie
 
 Per semplificare la lettura del codice lo sketch è suddiviso in vari file ino in base alla funzionalità che eseguono
 
@@ -16,7 +16,7 @@ Per semplificare la lettura del codice lo sketch è suddiviso in vari file ino i
 
 **Comandi eseguibili dal Serial Monitor**
 
-- Per resettare la memoria Eeprom premere R nel serial monitor e poi fare acquisizione carte
+- Per resettare la memoria Eeprom premere R nel serial monitor e poi fare l'acquisizione carte
 
 
 
