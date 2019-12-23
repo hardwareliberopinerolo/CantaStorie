@@ -1,0 +1,379 @@
+EESchema Schematic File Version 4
+LIBS:cantastorie_B_13-09-19_01-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 5D48AAE5
+P 6000 3600
+F 0 "J6" V 5872 3880 50  0000 L CNN
+F 1 "SPI" V 5963 3880 50  0000 L CNN
+F 2 "Connectors_Samtec:SL-106-X-XX_1x06" H 6000 3600 50  0001 C CNN
+F 3 "~" H 6000 3600 50  0001 C CNN
+	1    6000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5D48B333
+P 7600 2000
+F 0 "J1" H 7518 1675 50  0000 C CNN
+F 1 "speaker" H 7518 1766 50  0000 C CNN
+F 2 "Connectors_Samtec:SL-103-X-XX_1x03" H 7600 2000 50  0001 C CNN
+F 3 "~" H 7600 2000 50  0001 C CNN
+	1    7600 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5D54986D
+P 1050 2150
+F 0 "J8" H 1000 2350 50  0000 L CNN
+F 1 "VIN" H 1000 2250 50  0000 L CNN
+F 2 "Connectors_Samtec:SDL-102-X-XX_2x01" H 1050 2150 50  0001 C CNN
+F 3 "~" H 1050 2150 50  0001 C CNN
+	1    1050 2150
+	-1   0    0    1   
+$EndComp
+Text Notes 950  2150 2    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5D504AC7
+P 3700 5100
+F 0 "J4" V 3572 5280 50  0000 L CNN
+F 1 "I2C" V 3800 5000 50  0000 L CNN
+F 2 "Connectors_Samtec:SL-104-X-XX_1x04" H 3700 5100 50  0001 C CNN
+F 3 "~" H 3700 5100 50  0001 C CNN
+	1    3700 5100
+	0    1    1    0   
+$EndComp
+Text Notes 950  2050 2    50   ~ 0
++5V
+$Comp
+L Device:R R3
+U 1 1 5D6B060F
+P 3650 4450
+F 0 "R3" V 3600 4250 50  0000 C CNN
+F 1 "3k3" V 3650 4400 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3580 4450 50  0001 C CNN
+F 3 "~" H 3650 4450 50  0001 C CNN
+	1    3650 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D6B2582
+P 3550 4600
+F 0 "R4" V 3500 4450 50  0000 C CNN
+F 1 "3k3" V 3550 4600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3480 4600 50  0001 C CNN
+F 3 "~" H 3550 4600 50  0001 C CNN
+	1    3550 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 2250 2600 2250
+Wire Wire Line
+	1400 2150 1250 2150
+NoConn ~ 4400 2050
+NoConn ~ 4400 2150
+$Comp
+L kicad_05-09-19:DFPLAYER_MINI U2
+U 1 1 5D7C130F
+P 8650 1750
+F 0 "U2" H 8650 2445 60  0000 C CNN
+F 1 "DFPLAYER_MINI" H 8650 2335 60  0000 C CNN
+F 2 "DFplayer:DFPlayer_V3" H 8650 1750 60  0001 C CNN
+F 3 "" H 8650 1750 60  0000 C CNN
+	1    8650 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2150 2600 2150
+NoConn ~ 3500 4250
+NoConn ~ 3600 4250
+Wire Wire Line
+	7800 1900 8050 1900
+Wire Wire Line
+	7800 2000 7950 2000
+Wire Wire Line
+	7800 2100 8050 2100
+Wire Wire Line
+	7950 2000 7950 2550
+Wire Wire Line
+	7950 2550 9700 2550
+Wire Wire Line
+	9700 2550 9700 2000
+Wire Wire Line
+	9700 2000 9250 2000
+Connection ~ 7950 2000
+Wire Wire Line
+	7950 2000 8050 2000
+NoConn ~ 9250 1500
+NoConn ~ 9250 1600
+NoConn ~ 9250 1700
+NoConn ~ 9250 1800
+NoConn ~ 9250 1900
+NoConn ~ 9250 2100
+NoConn ~ 8050 1800
+NoConn ~ 8050 1700
+Wire Wire Line
+	5950 1500 8050 1500
+Wire Wire Line
+	5950 1500 5950 2350
+Wire Wire Line
+	6050 1600 8050 1600
+Wire Wire Line
+	6050 1600 6050 2450
+Wire Wire Line
+	4400 2250 5800 2250
+Wire Wire Line
+	5800 2250 5800 1050
+Wire Wire Line
+	5800 1050 9750 1050
+Wire Wire Line
+	9750 1050 9750 1400
+Wire Wire Line
+	9750 1400 9250 1400
+Wire Wire Line
+	7950 850  7950 2000
+Wire Wire Line
+	2000 850  7950 850 
+Wire Wire Line
+	2600 1400 2600 2150
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5D946CED
+P 5600 2750
+F 0 "J2" H 6200 2700 50  0000 C CNN
+F 1 "I/O" H 6200 2600 50  0000 C CNN
+F 2 "Connectors_Samtec:SDL-110-X-XX_2x05" H 5600 2750 50  0001 C CNN
+F 3 "~" H 5600 2750 50  0001 C CNN
+	1    5600 2750
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7950 2550
+Wire Wire Line
+	5950 2550 5950 2650
+Wire Wire Line
+	5950 2650 5800 2650
+Connection ~ 5950 2550
+Wire Wire Line
+	5950 2550 5800 2550
+Wire Wire Line
+	5950 2650 5950 2750
+Wire Wire Line
+	5950 2750 5800 2750
+Connection ~ 5950 2650
+Wire Wire Line
+	5950 2750 5950 2850
+Wire Wire Line
+	5950 2850 5800 2850
+Connection ~ 5950 2750
+Wire Wire Line
+	5950 2850 5950 2950
+Wire Wire Line
+	5950 2950 5800 2950
+Connection ~ 5950 2850
+Wire Wire Line
+	5400 3050 5400 3400
+Wire Wire Line
+	5400 3400 5800 3400
+Wire Wire Line
+	5250 3150 5250 3500
+Wire Wire Line
+	5250 3500 5800 3500
+Wire Wire Line
+	4400 3250 5100 3250
+Wire Wire Line
+	5100 3250 5100 3600
+Wire Wire Line
+	5100 3600 5800 3600
+Wire Wire Line
+	4400 3350 4950 3350
+Wire Wire Line
+	4950 3350 4950 3700
+Wire Wire Line
+	4950 3700 5800 3700
+Wire Wire Line
+	5800 3900 5700 3900
+Wire Wire Line
+	5700 3900 5700 3950
+Wire Wire Line
+	4400 3550 4750 3550
+Wire Wire Line
+	4750 3550 4750 3950
+Wire Wire Line
+	4750 3950 4850 3950
+Wire Wire Line
+	4400 3650 4650 3650
+Wire Wire Line
+	4650 3650 4650 4050
+Wire Wire Line
+	4400 3750 4550 3750
+Wire Wire Line
+	4550 3750 4550 4150
+Wire Wire Line
+	4400 3850 4450 3850
+Wire Wire Line
+	4450 3850 4450 4250
+Wire Wire Line
+	4400 2350 5950 2350
+Wire Wire Line
+	4400 2450 6050 2450
+Wire Wire Line
+	4400 3050 5400 3050
+Wire Wire Line
+	4400 3150 5250 3150
+NoConn ~ 2800 2550
+NoConn ~ 2800 2650
+Wire Wire Line
+	2800 2350 2600 2350
+Wire Wire Line
+	2600 2350 2600 2250
+Wire Wire Line
+	5800 3800 5550 3800
+Wire Wire Line
+	4650 4050 4850 4050
+Wire Wire Line
+	4550 4150 4850 4150
+Wire Wire Line
+	4450 4250 4850 4250
+Connection ~ 5350 4050
+Connection ~ 5350 4150
+Wire Wire Line
+	5350 3950 5350 4050
+Wire Wire Line
+	5350 4050 5350 4150
+Wire Wire Line
+	5350 4150 5350 4250
+Wire Wire Line
+	5350 3950 5700 3950
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J7
+U 1 1 5D9773E4
+P 5150 4050
+F 0 "J7" H 5200 4370 50  0000 C CNN
+F 1 "I/O" H 5200 4277 50  0000 C CNN
+F 2 "Connectors_Samtec:SDL-108-X-XX_2x04" H 5150 4050 50  0001 C CNN
+F 3 "~" H 5150 4050 50  0001 C CNN
+	1    5150 4050
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5350 3950
+$Comp
+L arduini_lib:ARDUINO_Pro-Mini_b U1
+U 1 1 5D7551FF
+P 3600 2950
+F 0 "U1" H 3600 4455 60  0000 C CNN
+F 1 "ARDUINO_Pro-Mini_b" H 3600 4345 60  0000 C CNB
+F 2 "arduino_impronte:ARDUINO_Pro-MiniB_1" H 3650 1950 60  0001 L CNN
+F 3 "Arduino/Arduino-Pro-Mini-v13.pdf" H 3600 4235 60  0000 C CNN
+	1    3600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2050 2200 2050
+Wire Wire Line
+	2000 850  2000 2350
+Wire Wire Line
+	2600 2350 2200 2350
+Wire Wire Line
+	1400 2150 1400 2350
+Connection ~ 2600 2350
+Connection ~ 2000 2350
+Wire Wire Line
+	4400 2550 5300 2550
+Wire Wire Line
+	4400 2850 5300 2850
+Wire Wire Line
+	4400 2950 5300 2950
+Wire Wire Line
+	4400 2650 5300 2650
+Wire Wire Line
+	4400 2750 5300 2750
+Wire Wire Line
+	3800 4250 3800 4450
+Wire Wire Line
+	3700 4250 3700 4600
+Wire Wire Line
+	2600 2150 2350 2150
+Connection ~ 2600 2150
+Wire Wire Line
+	1400 2350 2000 2350
+Wire Wire Line
+	2350 2150 2350 4450
+Wire Wire Line
+	2350 4800 3500 4800
+Wire Wire Line
+	2600 2350 2600 4700
+Wire Wire Line
+	2600 4700 3600 4700
+Wire Wire Line
+	3600 4700 3600 4900
+Connection ~ 3800 4450
+Wire Wire Line
+	3800 4450 3800 4900
+Connection ~ 3700 4600
+Wire Wire Line
+	3700 4600 3700 4900
+Wire Wire Line
+	3500 4450 3050 4450
+Connection ~ 2350 4450
+Wire Wire Line
+	2350 4450 2350 4800
+Wire Wire Line
+	3400 4600 3050 4600
+Wire Wire Line
+	3050 4600 3050 4450
+Connection ~ 3050 4450
+Wire Wire Line
+	3050 4450 2350 4450
+Wire Wire Line
+	3500 4800 3500 4900
+Wire Wire Line
+	3600 4700 5350 4700
+Wire Wire Line
+	5350 4700 5350 4250
+Connection ~ 3600 4700
+Connection ~ 5350 4250
+Wire Wire Line
+	3500 4800 5550 4800
+Connection ~ 3500 4800
+Wire Wire Line
+	5550 3800 5550 4800
+Wire Wire Line
+	5950 2550 7950 2550
+Wire Wire Line
+	2600 1400 8050 1400
+$Comp
+L Device:C C1
+U 1 1 5D7BCB8C
+P 2200 2200
+F 0 "C1" H 1950 1950 50  0000 L CNN
+F 1 "0,1uF" H 2100 1950 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 2238 2050 50  0001 C CNN
+F 3 "~" H 2200 2200 50  0001 C CNN
+	1    2200 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 2050
+Wire Wire Line
+	2200 2050 2800 2050
+Connection ~ 2200 2350
+Wire Wire Line
+	2200 2350 2000 2350
+$EndSCHEMATC

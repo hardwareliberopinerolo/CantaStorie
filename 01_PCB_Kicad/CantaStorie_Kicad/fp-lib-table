@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name cantastorie_arduino-mini_14-08-19_01)(type KiCad)(uri ${KIPRJMOD}/cantastorie_arduino-mini_14-08-19_01.pretty)(options "")(descr ""))
+  (lib (name cantastorie_B_08-09-19_01)(type KiCad)(uri ${KIPRJMOD}/cantastorie_30-08-19_01.pretty/cantastorie_B_08-09-19_01.pretty)(options "")(descr ""))
+)
