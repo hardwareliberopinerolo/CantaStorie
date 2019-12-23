@@ -6,9 +6,9 @@ Per semplificare la lettura del codice lo sketch è suddiviso in vari file ino i
 
 **Librerie Utilizzate**
 
-[MP3 DF Player Mini](https://github.com/Makuna/DFMiniMp3)
-[RC522 RFID Reader](https://github.com/miguelbalboa/rfid)
-[Ezprom](https://github.com/amirchev/EZPROM)
+[MP3 DF Player Mini](https://github.com/Makuna/DFMiniMp3) 
+[RC522 RFID Reader](https://github.com/miguelbalboa/rfid) 
+[Ezprom](https://github.com/amirchev/EZPROM) 
 
 
 
