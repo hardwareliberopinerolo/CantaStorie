@@ -18,6 +18,7 @@ Ricordati di selezionare nel ArduinoIDE come Board: Arduino Mini Pro a 3.3V
 
 
 **Comandi eseguibili dal Serial Monitor**
+
 Premere nel serial monitor:
 
 - R: Per resettare la memoria Eeprom e poi fare l'acquisizione carte
@@ -25,8 +26,6 @@ Premere nel serial monitor:
 - M: per settare o Resettare la Master RFID card
 - "+ / -" : Per aumentare o diminuire il volume
 - D: per settare quanti brani random eseguire
-
-
 
 
 ## Esecuzione Brani Random
