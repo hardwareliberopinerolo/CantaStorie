@@ -23,6 +23,7 @@ Nella cartella [PCB Kicad](/01_PCB_Kicad) sono presenti gli schemi elettrici per
 
 
 **Altre Versioni**
+
 [Versione con Arduino Nano e RC522](/10_Other_Versions/Arduino_Nano_RC522): E' una versione che permette di usare Arduino Nano, in modo simile al progetto [TonUINO](https://github.com/seisfeld/TonUINO)
 
 [Versione con Arduino Nano e PN532](/10_Other_Versions)
