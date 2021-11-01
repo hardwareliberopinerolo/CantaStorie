@@ -1,8 +1,11 @@
 # Sketches
 
-La cartella contiene lo Sketch Arduino del Canta Storie
+La cartella contiene lo [Sketch per Arduino Mini Pro a 3.3V](https://github.com/hardwareliberopinerolo/CantaStorie/tree/master/00_Arduino_Sketches/CantaStorie) del Canta Storie
 
 Per semplificare la lettura del codice lo sketch è suddiviso in vari file ino in base alla funzionalità che eseguono
+
+Ricordati di selezionare nel ArduinoIDE come Board: Arduino Mini Pro a 3.3V 
+
 
 **Librerie Utilizzate**
 
@@ -15,8 +18,15 @@ Per semplificare la lettura del codice lo sketch è suddiviso in vari file ino i
 
 
 **Comandi eseguibili dal Serial Monitor**
+Premere nel serial monitor:
 
-- Per resettare la memoria Eeprom premere R nel serial monitor e poi fare l'acquisizione carte
+- R: Per resettare la memoria Eeprom e poi fare l'acquisizione carte
+- L: per mostrare i codici RFID delle carte registrate
+- M: per settare o Resettare la Master RFID card
+- "+ / -" : Per aumentare o diminuire il volume
+- D: per settare quanti brani random eseguire
+
+
 
 
 ## Esecuzione Brani Random
